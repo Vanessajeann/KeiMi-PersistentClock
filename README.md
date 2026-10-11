@@ -4,7 +4,13 @@
 
 开启「系统界面 → 双排时间与电池状态」后，让时间与电池信息同时显示。原有 **1 / 2 / 3 秒**设置控制电池数据采样频率；系统更新单行时间文字时，补丁会同时带上缓存的电池信息。
 
-这是针对指定 APK 的 Smali 补丁项目，包含新增 Hook 和修改脚本，不是 KeiMi 的完整 Kotlin/Java 源码。原版 APK、测试 APK 和签名私钥不包含在本仓库中。
+这是针对指定 APK 的 Smali 补丁项目，包含新增 Hook 和修改脚本，不是 KeiMi 的完整 Kotlin/Java 源码。原版 APK 和签名私钥不包含在本仓库中；定制测试 APK 放在 Releases 中。
+
+## 下载测试 APK
+
+[KeiMi 2.5.0 常驻时间与电池信息测试版](https://github.com/Vanessajeann/KeiMi-PersistentClock/releases/tag/v2.5.0-persistent-test.1)
+
+在发布页的 Assets 中下载 `KeiMi_2.5.0_ClockBattery_Persistent_test.apk`。这是此前生成的测试包，原样上传，没有重新构建或重新签名。SHA-256：`042e111bdaed00ad5f75d4db3b8bb9e428c89bee0b1e11337b143bc5c09c8b56`。尚未完成手机实测，安装前请阅读下方安装与回退说明。
 
 ## 基线
 
