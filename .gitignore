@@ -1,0 +1,26 @@
+# Private signing material
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*password*
+*.env
+.env*
+local.properties
+
+# Input APKs, tools, build output and generated classes
+upload/
+tooling/
+inspect/
+output/
+patch/original/
+patch/modified/xg4.smali
+patch/modified/ep4.smali
+patch/modified/ug4.smali
+*.apk
+*.idsig
+__pycache__/
+*.pyc
+.idea/
+.gradle/
